@@ -1,0 +1,29 @@
+.btn {
+  border: none;
+  padding: 8px 24px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: $font-primary;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+
+  &__icon-left img {
+    margin-left: 12px;
+  }
+
+  &__icon-right img {
+    margin-right: 8px;
+  }
+
+  &__primary {
+    background-color: $blue;
+    color: $white;
+  }
+
+  &__secondary {
+    background-color: $white;
+    color: $blue-light;
+  }
+}
